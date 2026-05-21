@@ -1,6 +1,26 @@
 # Looply
-A web application that helps users stay focused using a timer.
+A web application that helps users stay focused, stay motivated and track their productivity. 
 
-Users can create tasks and monitor the time spent on each task to track their productivity. Users can also add motivational messages to help them stay focused. After completing focus sessions, they can grow a virtual flower as a reward for their work. 
+## Features
+Session setup: CRUD operations on tags and motivational messages  
+Creating session: choosing round duration, number of rounds and number of repetitions; optionally, adding tags to better organize sessions  
+Session state actions: Pause/Continue session, Done(as early done) session, Cancel(as quit) session  
+Statistics preview: based on selected tags, shows time spent on weekly report  
+Reward moment: After completing session, users receive virtual flower which can be planted anywhere on virtual garden(screen)  
 
-<img width="1920" height="883" alt="image" src="https://github.com/user-attachments/assets/a1b6a873-ef07-4f79-a704-40bb78353d01" />
+## Tech Stack
+  Backend:
+  - NestJS 
+  - TypeORM
+  - PostgreSQL
+  - Passport.js
+  - Typescript
+    
+  Frontend:
+  - Angular
+  - NgRx – state management
+  - rxJS
+  - Angular Material
+  - Chart.js
+  - ng2-charts
+  - Typescript
