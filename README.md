@@ -18,9 +18,10 @@ Reward moment: After completing session, users receive virtual flower which can 
     
   Frontend:
   - Angular
+  - Angular Material
   - NgRx – state management
   - rxJS
-  - Angular Material
   - Chart.js
   - ng2-charts
   - Typescript
+

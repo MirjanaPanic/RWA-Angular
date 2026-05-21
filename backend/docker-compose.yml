@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: rwa-postgres
+    environment:
+      POSTGRES_USER: mirjana
+      POSTGRES_PASSWORD: mika00
+      POSTGRES_DB: rwa-app
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
