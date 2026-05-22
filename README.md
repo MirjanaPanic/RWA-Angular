@@ -25,3 +25,6 @@ Reward moment: After completing session, users receive virtual flower which can 
   - ng2-charts
   - Typescript
 
+![alt text](<started session.PNG>)
+![alt text](<settings tab.PNG>)
+![alt text](<garden tab.PNG>)
