@@ -26,11 +26,14 @@ Reward moment: After completing session, users receive virtual flower which can 
   - Typescript
 
 ## Preview
+### Login/Register page
+![alt text](<login page.PNG>)
+
 ### Started session - round 1/4, round duration = 50min, with initial message
 ![started session](<started session.PNG>)
 
 ### Session setup - tags and motivational messages manipulation
 ![alt text](<settings tab.PNG>)
 
-### Garden tab = reward for successfully completed sessions
+### Garden tab = rewards for successfully completed sessions
 ![alt text](<garden tab.PNG>)
