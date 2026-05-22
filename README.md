@@ -27,10 +27,10 @@ Reward moment: After completing session, users receive virtual flower which can 
 
 ## Preview
 ### Started session - round 1/4, round duration = 50min, with initial message
-![started session](<screenshots\started session.PNG>)
+![started session](<started session.PNG>)
 
 ### Session setup - tags and motivational messages manipulation
-![alt text](<screenshots\settings tab.PNG>)
+![alt text](<settings tab.PNG>)
 
 ### Garden tab = reward for successfully completed sessions
-![alt text](<screenshots\garden tab.PNG>)
+![alt text](<garden tab.PNG>)
