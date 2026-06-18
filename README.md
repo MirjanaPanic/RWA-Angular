@@ -1,39 +1,43 @@
 # Looply
-A web application that helps users stay focused, stay motivated and track their productivity. 
+
+A productivity web app that helps users stay focused and track their work sessions using a customizable round-based timer system.
 
 ## Features
-Session setup: CRUD operations on tags and motivational messages  
-Creating session: choosing round duration, number of rounds and number of repetitions; optionally, adding tags to better organize sessions  
-Session state actions: Pause/Continue session, Done(as early done) session, Cancel(as quit) session  
-Statistics preview: based on selected tags, shows time spent on weekly report  
-Reward moment: After completing session, users receive virtual flower which can be planted anywhere on virtual garden(screen)  
+- **Session setup** – manage tags and motivational messages (full CRUD)
+- **Custom sessions** – configure round duration, number of rounds, and repetitions; optionally tag sessions for better organization
+- **Session controls** – pause, resume, mark as done early, or cancel
+- **Statistics** – weekly time report filtered by tags, visualized with Chart.js
+- **Virtual garden** – earn a flower after each completed session and plant it anywhere on a virtual garden screen
 
 ## Tech Stack
-  Backend:
-  - NestJS 
-  - TypeORM
-  - PostgreSQL
-  - Passport.js
-  - Typescript
-    
-  Frontend:
-  - Angular
-  - Angular Material
-  - NgRx – state management
-  - rxJS
-  - Chart.js
-  - ng2-charts
-  - Typescript
+**Frontend:** Angular, Angular Material, NgRx, RxJS, Chart.js, TypeScript  
+**Backend:** NestJS, TypeORM, PostgreSQL, Passport.js, TypeScript
 
 ## Preview
-### Login/Register page
-![alt text](<login page.PNG>)
 
-### Started session - round 1/4, round duration = 50min, with initial message
-![started session](<started session.PNG>)
+### Login page
+![Login page](photos/login.png)
 
-### Session setup - tags and motivational messages manipulation
-![alt text](<settings tab.PNG>)
+### Active session
+![Started session](photos/session.png)
 
-### Garden tab = rewards for successfully completed sessions
-![alt text](<garden tab.PNG>)
+
+### Session setup
+![Settings tab](photos/settings.png)
+
+### Virtual garden
+![Garden tab](photos/garden.png)
+
+## Getting Started
+
+```bash
+# Backend
+cd backend
+npm install
+npm start
+
+# Frontend
+cd frontend
+npm install
+ng serve
+```
